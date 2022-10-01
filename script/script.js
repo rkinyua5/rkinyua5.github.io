@@ -1,20 +1,20 @@
 
 function getAkanName () {
-  let yearOfBirth = document.getElementById("year-input").value;
-  let monthOfBirth = Number(document.getElementById("month-input").value);
-  let dayOfBirth = Number(document.getElementById("day-input").value);
-  let genders = document.getElementsByName("gender");
+  var yearOfBirth = document.getElementById("year-input").value;
+  var monthOfBirth = Number(document.getElementById("month-input").value);
+  var dayOfBirth = Number(document.getElementById("day-input").value);
+  var genders = document.getElementsByName("gender");
 
   // function to get gender
   function getGender () {
-    for (let gender of genders){
+    for (var gender of genders){
       if (gender.checked){
         return gender.value;
       }
     }
   }
 
-  let myGenderValue = getGender();
+  var myGenderValue = getGender();
   console.log(myGenderValue);
 
   // validation functions
@@ -45,28 +45,28 @@ function getAkanName () {
   }
 
   //validation variables
-  let MonthIsValid = ValidateMonth();
-  let DayIsValid = ValidateDay();
+  var MonthIsValid = ValidateMonth();
+  var DayIsValid = ValidateDay();
 
   //formula to determine day of birth (Sunday = 1, Monday = 2)etc..
-  let dayOfWeekNumber = Math.floor((((Number(yearOfBirth.slice(0,2))/4)-2*Number(yearOfBirth.slice(0,2))-1)+
+  var dayOfWeekNumber = Math.floor((((Number(yearOfBirth.slice(0,2))/4)-2*Number(yearOfBirth.slice(0,2))-1)+
           ((5*Number(yearOfBirth.slice(2,4))/4))+((26*(monthOfBirth+1)/10))+dayOfBirth)%7);
 
   //arrays of Akan names for males & females and days of the week
-  let daysOfWeek = [
+  var daysOfWeek = [
     "Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"
   ];
 
-  let maleAkanNames = [
+  var maleAkanNames = [
     "Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"
   ];
 
-  let femaleAkanNames = [
+  var femaleAkanNames = [
     "Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"
   ];
 
   //generating and index value to select items on arrays
-  let index;
+  var index;
   // fix formula bug
   if (dayOfWeekNumber == 0){
     index = 6;
