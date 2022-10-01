@@ -36,9 +36,13 @@ Outputs
 To view the app, open the Github Pages link provided below on the README.
 Setup and Run
 
-* Step 1 : Clone this repository using **`https://github.com/rkinyua5/weektwoip`**, or downloading a ZIP file of the code.
+* Step 1 : Clone this repository using **`https://github.com/rkinyua5/rkinyua5.github.io`**, or downloading a ZIP file of the code.
 * Step 2 : Extract ZIP
 * Step 3 : Open the index.html
+
+## Run Application
+
+* To view my application online, follow this link **`https://rkinyua5.github.io`**
 
 ## Technologies
 
