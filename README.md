@@ -52,7 +52,7 @@ Setup and Run
 
 ## Support and contact details
 
-You can provide feedback and report bugs:
+You can provide feedback:
 * rkinyua5@gmail.com
 
 ## License
