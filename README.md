@@ -11,7 +11,7 @@ Racheal Kinyua
 Akan-name-generator V1.0
 
 ## Description
-Akan names are derived from Ghanian culture. Frequently in Ghana, children are given their first name as a 'day name' which corresponds to the day in the week they were born. Here are Ghanian day names. T
+Akan names are derived from Ghanian culture. Frequently in Ghana, children are given their first name as a 'day name' which corresponds to the day in the week they were born. Here are Ghanian day names. 
 This app will take in a user's year of birth, month of birth, day of birth and select gender.
 
 
