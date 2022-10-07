@@ -47,7 +47,7 @@ Setup and Run
 ## Technologies
 
 * HTML  
-* CSS
+* CSS/Bootstap
 * Javascript
 
 ## Support and contact details
