@@ -5,7 +5,7 @@
 ![alt text](images/result.png)
 
 ## Author
-Racheal Kinyua
+Kinyua Racheal 
 
 ## Versioning
 Akan-name-generator V1.0
